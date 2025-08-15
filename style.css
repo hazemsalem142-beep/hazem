@@ -1,0 +1,50 @@
+@media screen  and (max-width:3784645672354273654px){
+    
+
+#d1,#d2{
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+      animation: ani 1s linear forwards; 
+
+}
+#center{
+    display: flex;justify-content: center;align-items: center;height: 100vh;
+}
+#d1{
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: aquamarine;
+    box-shadow: 0 0 100px aquamarine;
+
+}
+
+#d2{
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    background-color: aqua;
+    box-shadow: 0 0 100px aqua;
+
+}
+
+body{
+    background-color: gray;
+    overflow: hidden;
+}
+
+
+@keyframes ani {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); 
+}
+}
+#div{
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+
+}
